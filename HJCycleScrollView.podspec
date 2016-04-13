@@ -39,8 +39,12 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license = { :type => 'MIT', :text => <<-LICENSE
+                   Copyright 2016
+                   Permission is granted to...
+                 LICENSE
+               }
+  # s.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -80,7 +84,8 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/huluo666/HJCycleScrollView.git", :commit => "df49bb4e7b4ef419e24f04f348c4d1fc6ec2bad0" }
+  s.source       = {:git => "https://github.com/huluo666/HJCycleScrollView.git", :tag =>"#{s.version}" }
+
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

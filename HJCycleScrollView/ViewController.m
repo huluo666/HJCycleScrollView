@@ -83,7 +83,7 @@
 
 -(void)HJCycleScrollView:(HJCycleScrollView *)cycleScrollView didSelectIndex:(NSInteger)index
 {
-    NSLog(@"选择index===%ld",index);
+//    NSLog(@"选择index===%zd",index);
 }
 
 - (void)didReceiveMemoryWarning {
