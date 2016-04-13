@@ -56,10 +56,6 @@
     [self.view addSubview:reloadButton];
 }
 
-
-
-
-
 #pragma mark ----刷新Scrollview,一般首页会有下拉刷新功能---
 /*重置数据源*/
 -(void)refreshScrollview
@@ -68,7 +64,6 @@
     self.scrollView.imageArray=images;
     self.scrollView.titleArray=images;
 }
-
 
 #pragma ---- banna滚动图片------
 -(HJCycleScrollView *)scrollView
@@ -80,10 +75,9 @@
     return _scrollView;
 }
 
-
 -(void)HJCycleScrollView:(HJCycleScrollView *)cycleScrollView didSelectIndex:(NSInteger)index
 {
-//    NSLog(@"选择index===%zd",index);
+    NSLog(@"选择index");
 }
 
 - (void)didReceiveMemoryWarning {
