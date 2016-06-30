@@ -1,5 +1,10 @@
 # HJCycleScrollView
-自动循环滚动ScrollView
+自动循环滚动ScrollView,适用于首页banna广告图，使用复用机制，节约内存。
+可加载本地图片和网络图片，也可以混合本地和网络图片url使用
+
+pod 'HJCycleScrollView', '~> 1.0.0'
+   - Homepage: https://github.com/huluo666/HJCycleScrollView
+   - Source:   https://github.com/huluo666/HJCycleScrollView.git
 
 #1.基本使用
 
